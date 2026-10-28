@@ -22,3 +22,6 @@ The dashboard provides an interactive overview of order values, order volumes, p
 - Interactive product category and payment method filters
 - Product-level sales analysis
 - Percentage contribution to total order value
+## Dashboard Preview
+
+![Bicycle Sales Dashboard](Report_Sales.png)
