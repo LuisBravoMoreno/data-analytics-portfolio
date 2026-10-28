@@ -15,7 +15,7 @@ The dashboard provides an interactive overview of order values, order volumes, p
 - Total Order Value(using SUM function)
 - Total Orders
 - Average Order Value (AOV)
-- % of Toal(using CALCULATE, DIVIDE function)
+- % of Total : Each product's contribution to the selected total, calculated using DIVIDE, CALCULATE, and ALLSELECTED.
 
 ## Dashboard Features
 - Order value by product size and category
