@@ -12,9 +12,10 @@ The dashboard provides an interactive overview of order values, order volumes, p
 - Microsoft Excel
 
 ## Key Performance Indicators
-- Total Order Value
+- Total Order Value(using SUM function)
 - Total Orders
 - Average Order Value (AOV)
+- % of Toal(using CALCULATE, DIVIDE function)
 
 ## Dashboard Features
 - Order value by product size and category
