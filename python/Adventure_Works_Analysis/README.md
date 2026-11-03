@@ -1,4 +1,4 @@
-#Adventure Works - Cleaning Data With Pyhton
+# Adventure Works - Cleaning Data With Pyhton
 ## Project Overview
 This project focuses on cleaning and preparing data from Inventory and Sales File.
 
