@@ -14,7 +14,7 @@
 
 ### Query Results
 
-![Closed Orders Results](01_closed_orders_result.png)
+![Closed Orders Results](screenshots/01_closed_orders_result.png)
 
 ### Key Takeaway
 
