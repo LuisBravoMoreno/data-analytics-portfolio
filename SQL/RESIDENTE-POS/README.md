@@ -126,7 +126,7 @@ This analysis helps restaurant managers identify popular products, understand cu
 
 ### Query Results
 
-![Total Revenue by Product Category](screenshots/05_Total_Revenue_By_Product_Category.png)
+![Total Revenue by Product Category](screenshots/05_Total_Revenue_By_ProductCategory.png)
 
 ### Key Takeaway
 
