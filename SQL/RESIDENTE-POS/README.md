@@ -122,7 +122,7 @@ This analysis helps restaurant managers identify popular products, understand cu
 
 ### SQL Query
 
-[View SQL Query](queries/05_Total_Revenue_By_Product_Category.sql)
+[View SQL Query](queries/05_Total_Revenue_By_ProductCategory.sql)
 
 ### Query Results
 
