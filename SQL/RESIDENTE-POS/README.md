@@ -132,6 +132,51 @@ This analysis helps restaurant managers identify popular products, understand cu
 
 This exercise demonstrates how to combine data from three related tables (order_items, products, and categories) to analyze sales performance by product category.
 
+# Exercise 6 — Comparing Product Revenue Against Average Revenue
+
+## Objective
+
+Compare each product's total revenue against the average revenue generated across all sold products using **Multiple CTEs** and **Window Functions** in PostgreSQL.
+
+Identify products whose total revenue exceeds the overall average.
+
+## SQL Concepts Covered
+
+- Common Table Expressions (CTEs)
+- Multiple CTEs
+- INNER JOIN
+- SUM() and AVG()
+- Window Functions — OVER()
+- GROUP BY
+- WHERE
+- ORDER BY
+
+## SQL Query
+[View SQL Query](queries/06_Comparing_Product_Revenue_With_Average_Revenue.sql)
+
+### Query Results
+
+![Comparing Product Revenue Against Average Revenue](screenshots/06_Comparing_Product_Revenue_With_Average_Revenue.png)
+
+## Query Explanation
+
+### Step 1 — Calculate Product Revenue
+The first CTE calculates total revenue for each product using SUM().
+
+### Step 2 — Calculate Average Revenue
+The second CTE uses AVG() OVER() to calculate the average revenue across all sold products while preserving individual product rows.
+
+### Step 3 — Compare Revenue Against the Average
+The final query filters products whose total revenue exceeds the calculated average.
+
+### Step 4 — Sort Results
+Products are sorted by total revenue in descending order.
+
+## Business Insights
+
+- Identify products generating above-average revenue.
+- Evaluate sales performance across the menu.
+- Support data-driven decisions for restaurant operations.
 
 
 
