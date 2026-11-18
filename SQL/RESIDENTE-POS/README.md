@@ -29,3 +29,30 @@ The exercises focus on extracting, joining, filtering, and analyzing transaction
 ### Key Takeaway
 
 This exercise demonstrates how relational tables can be joined to retrieve detailed restaurant transactions and calculate product-level subtotals while excluding voided and pending items.
+## Exercise 02 — Total Payment Revenue by Order and Date
+
+**Objective:** Calculate total revenue from completed payments for each restaurant order, grouped by payment date, order ID, and order type.
+
+### SQL Concepts Applied
+
+- INNER JOIN connecting two relational tables (orders and payments)
+- WHERE to filter completed payments
+- SUM() to aggregate payment amounts
+- DATE() to extract the payment date
+- GROUP BY with multiple columns
+- ORDER BY to sort orders by ID in descending order
+
+### SQL Query
+
+[View SQL Query](queries/02_total_revenue_byorder.sql)
+
+### Query Results
+
+![Payment Revenue by Order](screenshots/02_total_revenue_byorder.png)
+
+### Key Takeaway
+
+This exercise demonstrates how SQL aggregation functions can be used to calculate revenue from completed payments. By joining the orders and payments tables, the query summarizes payment amounts by date, order ID, and order type.
+
+This analysis helps monitor restaurant revenue and provides useful information for financial reporting.
+
